@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: white;
+    color: #e5332f;
+}
+
+.navbar {
+    width: 100%;
+    background: #ff3b3b;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-esq, .nav-dir {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.maple {
+    width: 60px;
+    margin: 0 40px;
+}
+
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.titulo {
+    font-size: 40px;
+    font-weight: 900;
+    color: #ff3030;
+    border-left: 4px solid #ff3030;
+    padding-left: 15px;
+}
+
+.caixa {
+    margin-top: 30px;
+    border: 3px solid #ff3b3b;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+}
+
+.lado-esq {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 180px;
+    height: 35px;
+    border: 2px solid #ff3b3b;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.texto-info {
+    margin-top: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-criar {
+    color: #ff3b3b;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.alce {
+    height: 260px;
+    width: auto;
+}
