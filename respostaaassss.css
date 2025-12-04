@@ -5,11 +5,15 @@ body {
     background: #ffffff;
 }
 
-.page-container {
+main.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: 1100px;
     margin: 60px auto;
     padding: 20px;
+    position: relative;
 }
 
 .intro h1 {
@@ -26,32 +30,57 @@ body {
     font-size: 18px;
 }
 
-.sections {
-    display: flex;
-    flex-direction: column;
-    gap: 45px;
-    margin-top: 50px;
+.section-item {
+    margin-top: 30px;
+    position: relative;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fdfdfd;
 }
 
 .section-item h2 {
-    margin: 0;
     font-size: 28px;
     color: #d62828;
+    margin-bottom: 12px;
 }
 
-.section-item p {
-    margin-top: 8px;
-    font-size: 16px;
+.answer {
+    font-size: 18px;
     color: #333;
-    line-height: 1.4;
+    margin-top: 8px;
+    padding: 8px 12px;
+    background: #f0f0f0;
+    border-radius: 5px;
 }
 
-.section-item img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    margin-top: 15px;
-    border-radius: 8px;
+.btn {
+    background-color: #d62828;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 40px;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #a21f1f;
+}
+
+.arrow {
+    background-color: #ff3333;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
 }
 
 .top-header {
@@ -79,19 +108,10 @@ body {
 }
 
 .top-header a:hover {
+    opacity: 0.7;
     transform: scale(1.2);
 }
 
 .logo-meio img {
     height: 55px;
-}
-
-.arrow {
-    background-color: #ff3333;
-    width: fit-content;
-    padding: 1rem;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 4rem;
-    right: 4rem;
 }

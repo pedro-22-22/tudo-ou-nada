@@ -1,51 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Login - Canadá</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
 <body>
 
-    <header class="navbar">
-        <div class="nav-esq">
-            <a href="#">Login</a>
-            <a href="#">Cadastro</a>
-            <a href="#">Início</a>
-            <a href="#">Cultura</a>
-        </div>
+    <div class="login-container">
+        <div class="login-title">LOGIN</div>
 
-        <img src="maple.png" class="maple" alt="Símbolo">
-
-        <div class="nav-dir">
-            <a href="#">Culinária</a>
-            <a href="#">Economia</a>
-            <a href="#">Turismo</a>
-            <a href="#">Quiz</a>
-        </div>
-    </header>
-
-    <section class="container">
-        <h1 class="titulo">Login</h1>
-
-        <div class="caixa">
-            <div class="lado-esq">
+        <form class="form-area" action="home.html" method="get">
+            <div class="form-left">
                 <label>Usuário:</label>
-                <input type="text">
+                <input type="text" name="usuario" placeholder="Digite seu usuário" required>
 
                 <label>Senha:</label>
-                <input type="password">
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
 
-                <p class="texto-info">Não tem uma conta?</p>
-                <a href="#" class="link-criar">Criar conta</a>
+                <button type="submit">Entrar</button>
             </div>
 
-            <div class="lado-dir">
-                <img src="alce.png" class="alce" alt="Alce">
+            <div class="form-right">
+               <img src="flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview.png" alt="alce maneiro">
             </div>
-        </div>
-    </section>
+        </form>
+
+        <p class="register-text">
+            Não tem uma conta? <a href="cadastro.html">Crie uma!</a>
+        </p>
+    </div>
 
 </body>
 </html>

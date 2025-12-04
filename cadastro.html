@@ -1,51 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Cadastro - Canadá</title>
+    <link rel="stylesheet" href="cadastro.css">
 </head>
+
 <body>
 
-    <header class="navbar">
-        <div class="nav-esq">
-            <a href="#">Login</a>
-            <a href="#">Cadastro</a>
-            <a href="#">Início</a>
-            <a href="#">Cultura</a>
-        </div>
+    <div class="cadastro-container">
+        <div class="cadastro-title">CADASTRO</div>
 
-        <img src="maple.png" class="maple" alt="Símbolo">
+        <form class="form-area" action="login.html" method="get">
+            <div class="form-left">
+                <label>Nome completo:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
 
-        <div class="nav-dir">
-            <a href="#">Culinária</a>
-            <a href="#">Economia</a>
-            <a href="#">Turismo</a>
-            <a href="#">Quiz</a>
-        </div>
-    </header>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
 
-    <section class="container">
-        <h1 class="titulo">Cadastro</h1>
-
-        <div class="caixa">
-            <div class="lado-esq">
                 <label>Usuário:</label>
-                <input type="text">
+                <input type="text" name="usuario" placeholder="Crie um usuário" required>
 
                 <label>Senha:</label>
-                <input type="password">
+                <input type="password" name="senha" placeholder="Crie uma senha" required>
 
-                <p class="texto-info">Não tem uma conta?</p>
-                <a href="#" class="link-criar">Criar conta</a>
+                <button type="submit">Cadastrar</button>
             </div>
 
-            <div class="lado-dir">
-                <img src="alce.png" class="alce" alt="Alce">
+            <div class="form-right">
+                <img src="flat_750x_075_f-pad_750x1000_f8f8f8-removebg-preview.png" 
+                     alt="alce maneiro">
             </div>
-        </div>
-    </section>
+        </form>
+
+        <p class="login-text">
+            Já tem conta? <a href="login.html">Faça login!</a>
+        </p>
+    </div>
+
+    
 
 </body>
 </html>

@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+main.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 60px auto;
+    padding: 20px;
+    position: relative;
+}
+
+.intro h1 {
+    font-size: 40px;
+    color: #d62828;
+    text-align: center;
+    margin: 0;
+}
+
+.intro p {
+    text-align: center;
+    margin-top: 10px;
+    color: #444;
+    font-size: 18px;
+}
+
+form.quiz-form {
+    width: 100%;
+}
+
+.section-item {
+    margin-top: 30px;
+    position: relative;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #fdfdfd;
+}
+
+.section-item h2 {
+    font-size: 28px;
+    color: #d62828;
+    margin-bottom: 12px;
+}
+
+.section-item label {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 12px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    position: relative;
+}
+
+.section-item label:hover {
+    background: #e0e0e0;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.btn {
+    background-color: #d62828;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 40px;
+    position: relative;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #a21f1f;
+}
+
+.arrow {
+    background-color: #ff3333;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+}
+
+.top-header {
+    width: 100%;
+    background-color: #ff3333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-sizing: border-box;
+}
+
+.menu-esquerda, .menu-direita {
+    display: flex;
+    gap: 20px;
+}
+
+.top-header a {
+    font-family: 'Georgia', serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s all;
+}
+
+.top-header a:hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+.logo-meio img {
+    height: 55px;
+}
