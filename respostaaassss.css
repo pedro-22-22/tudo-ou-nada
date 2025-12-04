@@ -62,7 +62,7 @@ main.page-container {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: 0.3s;
     margin-top: 40px;
     position: relative;
     text-decoration: none;
